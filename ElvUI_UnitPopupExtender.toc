@@ -1,0 +1,8 @@
+## Interface: 50001
+## Title: ElvUI UnitPopup Extender
+## Notes: Allows you to add more options to the popup menus.
+## Author: Dandruff @ US-Whisperwind
+## Version: 1.0.0
+## RequiredDeps: ElvUI
+
+ElvUI_UnitPopupExtender.lua
