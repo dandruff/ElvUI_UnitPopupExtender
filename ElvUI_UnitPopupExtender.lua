@@ -59,9 +59,6 @@ local E,l,v,UI = select(1,unpack(ElvUI))
 do
   --UnitPopupMenus
   for popupType, items in pairs(itemsToAdd) do
-    if #items > 0 then
-      print("Popup type:", popupType, "- to add:", unpack(items))
-    end
     for index, newType in pairs(items) do
       -- Check to see if the list already contains it, before you add it again
       local contains = 0
